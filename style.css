@@ -1,0 +1,111 @@
+body {
+    margin: auto;
+    background-color: #E8E7C2;
+}
+
+@font-face {
+    font-family: 'fonte';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+body header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #3BD17F, #0a6e35, #124328);
+    padding-top: 30px;
+    padding-bottom: 20px;
+    box-shadow: 2px 2px 4px rgb(50, 47, 47);
+}
+
+span.menu {
+    margin: 0 5px 0 5px;
+    padding: 0 5px 0 5px;
+    font-size: 0.7em;
+}
+
+span:hover.menu {
+    background-color: #3BD17F;
+    color: #161414;
+    cursor: pointer;
+}
+
+header>h2,
+h5,
+.menu {
+    color: #ffffff;
+    text-shadow: 1px 1px 4px rgb(50, 47, 47);
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px 0 150px;
+    background-color: #ffffff;
+    box-shadow: 0 0 6px rgb(50, 47, 47);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+main>h2 {
+    font-family: 'fonte', sans-serif, arial;
+    text-align: left;
+    color: #0a6e35;
+    margin: 5px 5px 0 5px;
+}
+
+article>p,
+.p2 {
+    text-align: justify;
+    text-indent: 20px;
+    padding: 5px 5px 0 5px;
+}
+
+main>h5 {
+    padding-left: 5px;
+    text-align: left;
+    font-family: 'fonte', sans-serif, arial;
+    color: #0a6e35;
+    text-shadow: none;
+    background-image: linear-gradient(to left, #4af6971d, #27b16363, #207647a9);
+}
+
+span.artigo {
+    background-color: #0da44f8a;
+}
+
+.dandroid {
+    width: 100%;
+    margin: auto;
+}
+
+.bugdroid {
+    width: 30vw;
+    margin: auto;
+}
+
+.irina {
+    width: 100%;
+}
+
+div.video{
+    background-color: #0a6e35;
+    position: relative;
+    padding-bottom: 56%;
+    margin-bottom: 10px;
+
+}
+div.video>iframe{
+position: absolute;
+top: 5%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+
+div ul {
+    columns: 2;
+    list-style-type: '✔ ';
+
+    font-fa
+
+}
